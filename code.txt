@@ -1,0 +1,208 @@
+.menu > ul {
+    margin-top: 40px;
+    border-top: 8px solid #333333;
+    clear: left;
+}
+.block {
+    position: relative;
+    border: 2px solid #e5e5e5;
+    background-color: #f5f5f5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 25px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #333333;
+    font-family: tahoma, sans-serif;
+    font-size: 0px;
+}
+.header .header-user figure img,
+.header .user figure img {
+    max-height: 0px;
+    max-width: 0px;
+    margin: 0 auto;
+}
+.header > div + div {
+    position: relative;
+    float: right;
+    border-left: 1px solid #333333;
+}
+.head-bar {
+    position: absolute;
+    top: 56px;
+    right: 10px;
+    left: 0;
+    z-index: 680;
+    padding-left: 8px;
+    height: 47px;
+    line-height: 46px;
+    color: #ffffff;
+    border-bottom: none;
+    background-color: rgba(51, 51, 51, 0);
+    font-size: 14px;
+}
+.content-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #cccccc;
+    background-color: #f2f2f2;
+    text-align: left;
+    overflow: auto;
+    border-radius: 10px;
+}
+.head-bar div > a {
+    display: block;
+    padding: 0 8px 0 8px;
+    border-left: 1px solid #333;
+    height: 47px;
+    line-height: 46px;
+    color: #ffffff;
+}
+.menu a {
+    position: relative;
+    padding-left: 0;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    color: #f2f2f2;
+    overflow: hidden;
+    border-bottom: 1px solid #333333;
+}
+.menu li.active,
+.menu li.highlight-menu.active,
+.menu li.active > a:hover {
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+}
+.menu .navTrigger {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    border-bottom: 1px solid #333333;
+}
+.alertRed a {
+    padding-left: 6px !important;
+    background: url(https://d13yacurqjgara.cloudfront.net/users/133441/screenshots/2212633/confetti.gif)!important;
+    background-size: 366px 250px!important;
+}
+.alertRed {
+    border-left: 4px solid #c3000c;
+    background-color: #ffffff !important;
+}
+.alertRed span.nrblock {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/50/58/3a/50583a1d6b1444e83e9f28b6d0e2f13f.gif)!important;
+    background-size: 80px 80px!important;
+}
+.widget .agenda-list li.alertRed span.time:before {
+    content: "DIT UUR VERVALT!";
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+.widget .agenda-list li.alertRed span.time:after {
+    color: rgb(107, 71, 189) !important;
+}
+#cijfers-leerling .last-grade {
+    float: left;
+    padding: 11px 0 0 0;
+    margin: 8px 0 8px 8px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    background: url(http://www.thecitrusreport.com/wp-content/uploads/2015/04/floriandelooij-citrusreport-3.gif)no-repeat!important;
+    background-size: 80px 80px!important;
+    font-size: 36px;
+    font-family: "droid_sansregular", arial, helvetica, sans-serif;
+    border-radius: 180px;
+}
+aside .tabs li.active a {
+    margin-top: -3px;
+    height: 44px;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    background-color: #757575;
+    color: #ffffff;
+    -moz-box-shadow: inset 0 0 0 0 transparent;
+    -webkit-box-shadow: inset 0 0 0 0 transparent;
+    box-shadow: inset 0 0 0 0 transparent;
+}
+aside .trigger-btn {
+    height: 46px;
+    text-indent: 0;
+    width: 46px;
+    z-index: 99999;
+    border-left: 1px solid #f2f2f2;
+}
+.head-bar {
+    position: absolute;
+    top: 56px;
+    right: 10px;
+    left: 0;
+    z-index: 680;
+    padding-left: 8px;
+    height: 47px;
+    line-height: 46px;
+    color: #ffffff;
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+}
+aside .tabs li.active:after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    -webkit-transform: rotate(0.01deg);
+    border-color: #757575 transparent transparent transparent;
+    border-color: #757575 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+    top: 53px;
+}
+.login-dialog:before,
+.change-password-dialog.no-preview:before {
+    position: relative;
+    float: left;
+    width: 238px;
+    height: 376px;
+    background: url(http://www.designvertise.com/wp-content/uploads/2014/05/Space-45-Night-by-Seth-Eckert.gif) no-repeat !important;
+    -moz-box-shadow: 1px 0 5px -1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 1px 0 5px -1px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 0 5px -1px rgba(0, 0, 0, 0.7);
+    content: '';
+}
+.account-dialog .title {
+    font-size: 18px;
+    color: #ffffff;
+    background: url(http://www.designvertise.com/wp-content/uploads/2014/05/Space-45-Night-by-Seth-Eckert.gif) no-repeat !important;
+}
+.btn-primary3 {
+    margin: 1px;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    height: 36px;
+    line-height: 34px;
+    min-width: 86px;
+    text-decoration: none;
+    border: 1px solid rgba(24, 182, 255, 0);
+    border-radius: 2px;
+    background: #333356;
+    font-family: Tahoma;
+    padding: 0 12px;
+    display: block;
+    width: 86px;
+    text-transform: lowercase;
+}
